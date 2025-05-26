@@ -46,3 +46,4 @@ while(flag):
         flag = False
     else:
         print("You have entered wrong input:")
+        print("Enter choose 'yes' or 'no'")
