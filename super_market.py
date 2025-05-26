@@ -27,6 +27,7 @@ qun = [5,10,20,25,150]
 
 flag = True
 while(flag):
+    print("Enter super market")
     choose = input("enter yes or no:")
     if choose=='yes':
         print("choose choice:\n1.print all items in the market\n2.update price of a product\n3.update quantity of a product")
@@ -39,6 +40,8 @@ while(flag):
         elif choice==3:
             item = input("Enter a product name:")
             update_qun(item,product,qun)
+        else:
+            print("enter choice in b\w 1 to 3")
     elif choose=='no':
         flag = False
     else:
